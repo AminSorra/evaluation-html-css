@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #1C1C1C;
+    height: 100vh;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    border: solid 2px black;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#milieu{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    margin-right: 70px;
+}
+/* #compte{
+    border: black 2px solid;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+} */
+.top{
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+}
+#article{
+    display: flex;
+    flex-direction: row;
+    margin-left: 22%;
+    margin-right: 21.5%;
+    background-color: #F3F3F3;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#boxe{
+    display: flex;
+    margin-bottom: 20px;
+    box-shadow: black 1px 2px 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    height: 30px;
+}
+.container-droit{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-around;
+}
+#prenom{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+}
+
+#gants1{
+    padding-bottom: 50px;
+    box-shadow:black 1px 2px 10px;
+}
+#gants2{
+    padding-bottom: 50px;
+    box-shadow:black 1px 2px 10px;
+}
+#gants3{
+    padding-bottom: 50px;
+    box-shadow:black 1px 2px 10px;
+}
+#gants4{
+    padding-bottom: 50px;
+    box-shadow: black 1px 2px 10px;
+}
+button{
+    width:200px;
+}
+h4{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    text-decoration: line-through;
+    color: grey;
+
+}
+h2{
+    color: orange;
+    text-decoration: black underline solid ;
+}
+.infos{
+    display: flex;
+    flex-direction: row;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+}
+.bande{
+    background-color: grey;
+    height: 15px;
+    margin-top: 20px;
+}
+button{
+    background-color: #2D2D2D;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    margin-right: 50px;
+
+}
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2D2D;
+    color: white;
+    height: 500px;
+    
+}
+.livre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.cadenas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    
+}
+.camion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.pouce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.charte{
+    display: flex;
+    justify-content: center;
+}
