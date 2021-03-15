@@ -3,7 +3,7 @@
 }
 body{
     background-color: #1C1C1C;
-    height: 100vh;
+    height: 100%;
 }
 header{
     display: flex;
@@ -108,7 +108,7 @@ h2{
     justify-content: center;
 }
 .bande{
-    background-color: grey;
+    background-color: #2D2D2D;
     height: 15px;
     margin-top: 20px;
 }
@@ -124,10 +124,11 @@ footer{
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     background-color: #2D2D2D;
     color: white;
-    height: 500px;
+    flex-wrap: wrap;
+    
     
 }
 .livre{
@@ -157,5 +158,26 @@ footer{
 }
 .charte{
     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 30px;
+}
+.reseaux{
+    background-color: #2D2D2D;
+}
+li{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 150px
+}
+#copyright{
+    display: flex;
     justify-content: center;
+    color: white;
 }
